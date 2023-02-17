@@ -9,4 +9,6 @@ app.Run();
 //dotnet add package Microsoft.EntityFrameworkCore.Design
 //dotnet add package Microsoft.EntityFrameworkCore.Sqlite.Design
 //Microsoft.EnityFrameworkCore.Sqlite.Tools
-//dotnet ef migrations add CreateDatabase
+//dotnet ef migrations add CreateDatabase -- criar banco
+//dotnet ef database update
+//dotnet tool install --global dotnet-ef
